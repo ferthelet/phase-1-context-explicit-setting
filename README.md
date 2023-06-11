@@ -11,7 +11,7 @@ In the previous lesson, we learned that when we invoke functions, JavaScript
 creates a function execution context that includes a context object (`this`)
 which is made available to the function. That context object will be set to
 "whatever's to the left of the dot" or, when there's nothing to the left of the
-dot, the global object.
+dot, the global object
 
 JavaScript provides other means for specifying what _we_ want the context object
 to be. These are the _explicit_ methods of setting the context object: `call`,
